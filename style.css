@@ -1,0 +1,32 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+#start,
+#number_of_objects,
+#status {
+    font-size: 20px;
+}
+
+.crf {
+    position: fixed;
+    color:rgb(46, 0, 131);
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(255, 205, 230);
+    line-height: 3;
+    text-align: center;
+}
+
+canvas {
+    border: rgb(255, 212, 246) solid 2px;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: rgb(202, 202, 253) 10px 10px 10px;
+}
